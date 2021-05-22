@@ -225,9 +225,13 @@ ul{
   .project a {
     font-size: 14px;
     margin: 10px;
+  }
 }
+@media screen and (max-width:430px){
+  .contakt a {
+    font-size: 17px;
+  }
 }
-
 
 
 
