@@ -105,6 +105,7 @@ body{
 .block-border{
   border: 5px solid #0087cb;
   border-radius: 15px;
+  flex-direction: column !important;
 }
 span{
   text-align: center;
