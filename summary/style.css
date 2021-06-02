@@ -218,6 +218,12 @@ ul{
   ul{
     display: none;
   }
+  .contact-call{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  }
 }
 
 @media screen and (max-width:520px){
@@ -234,7 +240,11 @@ ul{
     font-size: 17px;
   }
 }
-
+@media screen and (max-width:390px){
+  .contakt a {
+    font-size: 15px;
+  }
+}
 
 
 
